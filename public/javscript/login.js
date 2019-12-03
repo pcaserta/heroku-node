@@ -6,7 +6,7 @@ $(document).ready(function() {
     window.location.href = "/landing/index.html";
     alert("Please login to take survey");
   }
-  var name = $("<p>").text(`User ${localInput} logged in`);
+  var name = $("<p>").text("User " + localInput + " logged in");
   name.addClass("p-0 m-1");
   $("#NavLinks").append(name);
 
