@@ -15,7 +15,7 @@ $(document).ready(function() {
     if (status && localInput) {
       window.location.href = "/afterLogin/index.html";
     } else {
-      alert("Try again invalid username/password");
+      alert("Try again invalid username and or password");
     }
   });
 });
