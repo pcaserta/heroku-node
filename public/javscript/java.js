@@ -7,7 +7,7 @@ $(document).ready(function() {
     let username = $("#userName")
       .val()
       .trim();
-    localStorage.clear();
+    localStorage.removeItem("input");
     localStorage.setItem("input", username);
     var localInput = localStorage.getItem("input");
 

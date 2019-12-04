@@ -3,9 +3,6 @@
   font-size: 14px !important;
 }
 
-body {
-  overflow: hidden !important;
-}
 .btn-primary {
   background-color: rgb(63, 81, 181) !important;
   height: 50% !important;
@@ -15,7 +12,6 @@ body {
 .collapse {
   margin-top: 10px !important;
 }
-#omagee {
-  height: 100vh !important;
-  width: 100vh !important;
+body {
+  background-color: #e9ebee;
 }
