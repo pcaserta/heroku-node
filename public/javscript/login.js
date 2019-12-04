@@ -13,6 +13,7 @@ $(document).ready(function() {
 
   //logs out user
   $("#logOut").on("click", function(event) {
+    event.preventDefault();
     localStorage.removeItem("input");
     window.location.href = "/landing/index.html";
   });
