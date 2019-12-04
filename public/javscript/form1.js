@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  //sets input fields to values saved from last session using local storage
+  //grabs all local storage data
   var f1Q1 = localStorage.getItem("f1Q1");
   var f1Q2 = localStorage.getItem("f1Q2");
   var f1Q3 = localStorage.getItem("f1Q3");
@@ -22,6 +22,7 @@ $(document).ready(function() {
   var f1Q20 = localStorage.getItem("f1Q20");
   var f1Q21 = localStorage.getItem("f1Q21");
 
+  //sets html values to local storage data
   $("#q1").val(f1Q1);
   $("#q2").val(f1Q2);
   $("#q3").val(f1Q3);
@@ -112,6 +113,7 @@ $(document).ready(function() {
       .val()
       .trim();
 
+    //setting local storage data
     localStorage.setItem("f1Q1", q1);
     localStorage.setItem("f1Q2", q2);
     localStorage.setItem("f1Q3", q3);
