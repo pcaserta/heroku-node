@@ -22,4 +22,4 @@ app.use(express.static("public"));
 // =============================================================
 require("./routes/htmlRoutes.js")(app);
 
-app.listen(PORT, console.log(`Server started on ${PORT}`));
+app.listen(PORT, console.log(`Server started on Port ${PORT}...`));
