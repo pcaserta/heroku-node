@@ -12,6 +12,15 @@ $(document).ready(function() {
   var f1Q10 = localStorage.getItem("f1Q10");
   var f1Q11 = localStorage.getItem("f1Q11");
   var f1Q12 = localStorage.getItem("f1Q12");
+  var f1Q13 = localStorage.getItem("f1Q13");
+  var f1Q14 = localStorage.getItem("f1Q14");
+  var f1Q15 = localStorage.getItem("f1Q15");
+  var f1Q16 = localStorage.getItem("f1Q16");
+  var f1Q17 = localStorage.getItem("f1Q17");
+  var f1Q18 = localStorage.getItem("f1Q18");
+  var f1Q19 = localStorage.getItem("f1Q19");
+  var f1Q20 = localStorage.getItem("f1Q20");
+  var f1Q21 = localStorage.getItem("f1Q21");
 
   $("#q1").val(f1Q1);
   $("#q2").val(f1Q2);
@@ -25,6 +34,15 @@ $(document).ready(function() {
   $("#q10").val(f1Q10);
   $("#q11").val(f1Q11);
   $("#q12").val(f1Q12);
+  $("#q13").val(f1Q13);
+  $("#q14").val(f1Q14);
+  $("#q15").val(f1Q15);
+  $("#q16").val(f1Q16);
+  $("#q17").val(f1Q17);
+  $("#q18").val(f1Q18);
+  $("#q19").val(f1Q19);
+  $("#q20").val(f1Q20);
+  $("#q21").val(f1Q21);
 
   //saving input values to localstorage
   $("#form1").on("click", function(event) {
@@ -66,6 +84,33 @@ $(document).ready(function() {
     var q12 = $("#q12")
       .val()
       .trim();
+    var q13 = $("#q13")
+      .val()
+      .trim();
+    var q14 = $("#q14")
+      .val()
+      .trim();
+    var q15 = $("#q15")
+      .val()
+      .trim();
+    var q16 = $("#q16")
+      .val()
+      .trim();
+    var q17 = $("#q17")
+      .val()
+      .trim();
+    var q18 = $("#q18")
+      .val()
+      .trim();
+    var q19 = $("#q19")
+      .val()
+      .trim();
+    var q20 = $("#q20")
+      .val()
+      .trim();
+    var q21 = $("#q21")
+      .val()
+      .trim();
 
     localStorage.setItem("f1Q1", q1);
     localStorage.setItem("f1Q2", q2);
@@ -79,5 +124,14 @@ $(document).ready(function() {
     localStorage.setItem("f1Q10", q10);
     localStorage.setItem("f1Q11", q11);
     localStorage.setItem("f1Q12", q12);
+    localStorage.setItem("f1Q13", q13);
+    localStorage.setItem("f1Q14", q14);
+    localStorage.setItem("f1Q15", q15);
+    localStorage.setItem("f1Q16", q16);
+    localStorage.setItem("f1Q17", q17);
+    localStorage.setItem("f1Q18", q18);
+    localStorage.setItem("f1Q19", q19);
+    localStorage.setItem("f1Q20", q20);
+    localStorage.setItem("f1Q21", q21);
   });
 });
