@@ -22,7 +22,6 @@ $(document).ready(function() {
   var f1Q20 = localStorage.getItem("f1Q20");
   var f1Q21 = localStorage.getItem("f1Q21");
 
-  
   //sets html values to local storage data
   $("#q1").val(f1Q1);
   $("#q2").val(f1Q2);
@@ -136,5 +135,8 @@ $(document).ready(function() {
     localStorage.setItem("f1Q19", q19);
     localStorage.setItem("f1Q20", q20);
     localStorage.setItem("f1Q21", q21);
+
+    //redirect to next set of questions
+    window.location.href = "/form2/index.html";
   });
 });
