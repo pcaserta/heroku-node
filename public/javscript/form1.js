@@ -22,6 +22,7 @@ $(document).ready(function() {
   var f1Q20 = localStorage.getItem("f1Q20");
   var f1Q21 = localStorage.getItem("f1Q21");
 
+  
   //sets html values to local storage data
   $("#q1").val(f1Q1);
   $("#q2").val(f1Q2);
