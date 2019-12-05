@@ -1,0 +1,28 @@
+.navbar {
+  background-color: rgb(63, 81, 181) !important;
+  font-size: 14px !important;
+}
+
+body,
+form {
+  overflow-x: hidden !important;
+  background-color: #e9ebee;
+}
+
+.card-body {
+  background-color: #e9ebee !important;
+}
+
+.btn-primary {
+  background-color: rgb(63, 81, 181) !important;
+  height: 50% !important;
+  margin-top: 6px !important;
+}
+
+.collapse {
+  margin-top: 10px !important;
+}
+#omagee {
+  height: 100vh !important;
+  width: 100vh !important;
+}
