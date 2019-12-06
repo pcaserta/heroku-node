@@ -6,10 +6,10 @@
 body,
 form {
   overflow-x: hidden !important;
-  background-color: #e9ebee;
+  background-color: #e9ebee !important;
 }
 
-.card-body {
+#form-3 {
   background-color: #e9ebee !important;
 }
 
@@ -25,4 +25,12 @@ form {
 #omagee {
   height: 100vh !important;
   width: 100vh !important;
+}
+
+.card-header {
+  background-color: #e9ebee !important;
+}
+
+.ethnic-group-table {
+  text-align: center !important;
 }
