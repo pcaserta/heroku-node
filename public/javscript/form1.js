@@ -136,7 +136,7 @@ $(document).ready(function() {
     localStorage.setItem("f1Q20", q20);
     localStorage.setItem("f1Q21", q21);
 
-    //redirect to next set of questions
+    //redirect to next set of questions(form)
     window.location.href = "/form2/index.html";
   });
 });
